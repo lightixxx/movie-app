@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { isLoading, movies } = this.state
+    const { isLoading, movies } = this.state;
     return (
       <div>
         {
