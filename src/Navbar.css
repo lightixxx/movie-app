@@ -1,0 +1,17 @@
+.logo__container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  color: #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+/* Media-query */
+@media screen and (min-width: 512px) and (max-width: 1024px) {
+  
+  .logo__container {
+    justify-content: flex-start;
+  }
+
+}
