@@ -80,10 +80,26 @@
 
   .movies .movie {
     justify-content: flex-start;
+    flex-direction: row;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .movies {
+    padding: 10px;
+    padding-top: 50px;
+  }
+
+  .movies a {
+    justify-content: flex-start;
+  }
+
+  .movies .movie {
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     height: 430px;
-    padding: 10px;
   }
 
   .movie img {
