@@ -3,21 +3,21 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 20px;
+  top: 30px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .nav a {
-  font-size: 16px;
-  color: blanchedalmond;
+  font-size: 20px;
+  color:#ffc82c;
   text-align: center;
   font-weight: 600;
   margin: 0 5px;
   padding: 10px;
-  transition: color 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
 }
 
 .nav a:hover {
-  color: blue;
+  opacity: 0.5;
 }
